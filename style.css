@@ -239,9 +239,9 @@ section {
 }
 
 .home-sci i:hover {
-    background: hwb(144 5% 24%);
+    background: hwb(233 5% 24%);
     color: #000;
-    box-shadow: 0 0 5px hsl(144, 62%, 18%), 0 0 10px hsl(144, 78%, 46%), 0 0 15px hsl(144, 78%, 46%), 0 0 20px hsl(144, 78%, 46%), 0 0 25px hsl(144, 78%, 46%);
+    box-shadow: 0 0 5px hsl(241, 75%, 55%), 0 0 10px hsl(243, 79%, 57%), 0 0 15px hsl(217, 72%, 47%), 0 0 20px hsl(243, 76%, 55%), 0 0 25px hsl(227, 78%, 46%);
 }
 
 .home-sci a::before {
@@ -251,14 +251,14 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    box-shadow: 0 0 5px hsl(144, 78%, 46%), 0 0 10px hsl(144, 78%, 46%), 0 0 15px hsl(144, 78%, 46%), 0 0 20px hsl(144, 78%, 46%), 0 0 25px hsl(144, 78%, 46%);
+    box-shadow: 0 0 5px hsl(253, 72%, 52%), 0 0 10px hsl(248, 82%, 56%), 0 0 15px hsl(246, 76%, 54%), 0 0 20px hsl(257, 76%, 50%), 0 0 25px hsl(248, 72%, 49%);
     z-index: -1;
     transition: .5s;
 }
 
 .home-sci i:hover {
     color: #000;
-    box-shadow: 0 0 5px hsl(144, 78%, 46%), 0 0 10px hsl(144, 78%, 46%), 0 0 15px hsl(144, 78%, 46%), 0 0 20px hsl(144, 78%, 46%), 0 0 25px hsl(144, 78%, 46%);
+    box-shadow: 0 0 5px hsl(241, 78%, 46%), 0 0 10px hsl(243, 78%, 46%), 0 0 15px hsl(239, 78%, 46%), 0 0 20px hsl(251, 78%, 46%), 0 0 25px hsl(241, 78%, 46%);
 }
 
 .home-imgHover:hover {
