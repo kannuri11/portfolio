@@ -14,7 +14,7 @@
     --bg-color: #000000;
     --second-bg-color: #000000;
     --text-color: #ededed;
-    --main-color: hsl(144, 78%, 46%);
+    --main-color: hsl(207, 78%, 46%);
 }
 
 html {
@@ -239,9 +239,9 @@ section {
 }
 
 .home-sci i:hover {
-    background: rgb(0, 0, 0);
-    color: #011607;
-    box-shadow: 0 0 0px hsl(144, 78%, 46%), 0 0 5px hsl(144, 78%, 46%), 0 0 10px hsl(144, 78%, 46%), 0 0 15px hsl(144, 78%, 46%), 0 0 20px hsl(144, 78%, 46%);
+    background: hwb(144 5% 24%);
+    color: #000;
+    box-shadow: 0 0 5px hsl(144, 62%, 18%), 0 0 10px hsl(144, 78%, 46%), 0 0 15px hsl(144, 78%, 46%), 0 0 20px hsl(144, 78%, 46%), 0 0 25px hsl(144, 78%, 46%);
 }
 
 .home-sci a::before {
@@ -251,15 +251,14 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--main-color);
+    box-shadow: 0 0 5px hsl(144, 78%, 46%), 0 0 10px hsl(144, 78%, 46%), 0 0 15px hsl(144, 78%, 46%), 0 0 20px hsl(144, 78%, 46%), 0 0 25px hsl(144, 78%, 46%);
     z-index: -1;
     transition: .5s;
 }
 
 .home-sci i:hover {
-    background: hsl(144, 78%, 46%);
     color: #000;
-    box-shadow: 0 0 5px hsl(144, 78%, 46%), 0 0 10px hsl(144, 78%, 46%), 0 0 15px hsl(144, 78%, 46%), 0 0 20px hsl(144, 78%, 46%), 0 0 20px hsl(144, 78%, 46%);
+    box-shadow: 0 0 5px hsl(144, 78%, 46%), 0 0 10px hsl(144, 78%, 46%), 0 0 15px hsl(144, 78%, 46%), 0 0 20px hsl(144, 78%, 46%), 0 0 25px hsl(144, 78%, 46%);
 }
 
 .home-imgHover:hover {
@@ -598,7 +597,7 @@ background-position: center;
 }
 
 .contact-text h2 span {
-    color: #26df4e;
+    color: #5571e1;
 }
 
 .contact-text h4 {
@@ -629,7 +628,7 @@ background-position: center;
 
 .contact-list i {
     display: inline-block;
-    color: #26df4e;
+    color: #5571e1;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
@@ -643,19 +642,19 @@ background-position: center;
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #26df4e;
+    border: 2px solid #5571e1;
     border-radius: 50%;
     font-size: 20px;
-    color: #26df4e;
+    color: #5571e1;
     text-decoration: none;
     margin: 0px 15px 0px 0;
     opacity: 1;
 }
 
 .contact-icons i:hover {
-    background: #26df4e;
+    background: #5571e1;
     color: #000;
-    box-shadow: #2fd85f, #26df4e, #26df4e, #26df4e, #26df4e;
+    box-shadow: #5571e1, #5571e1, #5571e1, #5571e1, #5571e1;
 }
 
 .last-text p {
@@ -711,9 +710,9 @@ background-position: center;
 }
 
 .footer-iconTop i:hover {
-    background: #26df4e;
+    background: #5571e1;
     color: #000000;
-    box-shadow: #26df4e, #26df4e, #26df4e, #26df4e, #26df4e;
+    box-shadow: #5571e1, #5571e1, #5571e1, #5571e1, #5571e1;
 }
 
 .footer-iconTop a i {
@@ -723,9 +722,9 @@ background-position: center;
 }
 
 .footer-iconTop i:hover {
-    background: #26df4e;
+    background: #5571e1;
     color: #000000;
-    box-shadow: #44b45c, #26df4e, #26df4e, #26df4e, #26df4e;
+    box-shadow: #5571e1, #5571e1, #5571e1, #5571e1, #5571e1;
 }
 
 
