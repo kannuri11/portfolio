@@ -14,7 +14,7 @@
     --bg-color: #000000;
     --second-bg-color: #000000;
     --text-color: #ededed;
-    --main-color: hsl(207, 78%, 46%);
+    --main-color: hsl(207, 83%, 65%);
 }
 
 html {
@@ -573,6 +573,89 @@ background-position: center;
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
     width: ;
+}
+
+/* Service*/
+
+#Services {
+    background-color: #000;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 0px;
+    padding-bottom: 70px;
+}
+
+.sub-title span {
+    color: #0ef;
+}
+
+.prj-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.prj-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    /*box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;*/
+    border: #0ef 5px solid;
+}
+
+.container {
+    padding: 50px;
+
+}
+
+.prj-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.prj-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.prj-list div a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.read {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.read:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.prj-list div:hover {
+    transform: translateY(-2px);
 }
 
 .contacts {
